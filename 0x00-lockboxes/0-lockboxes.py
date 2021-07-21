@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-import sys
-sys.setrecursionlimit(1500)
 """lockboxes"""
 
 
 def canUnlockAll(boxes):
     """lockboxes"""
+    import sys
+    sys.setrecursionlimit(69420)
     if len(boxes) == 0:
         return False
     if boxes is None:
