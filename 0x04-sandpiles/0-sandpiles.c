@@ -35,11 +35,11 @@ void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 	}
 }
 
-/*
-*isStable-is stable
-*Return: 0/1
-*@grid:input
-*/
+/**
+ *isStable-is stable
+ *Return: 0/1
+ *@grid:input
+ */
 int isStable(int grid[3][3])
 {
 	int i = 0, j = 0;
