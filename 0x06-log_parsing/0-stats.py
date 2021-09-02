@@ -2,7 +2,7 @@
 import sys
 
 
-def printvalues(stats, size):
+def printStats(stats, size):
     statarr = [200, 301, 400, 401, 403, 404, 405, 500]
     print("File size: {}".format(size))
     for i in range(len(statarr)):
@@ -22,10 +22,10 @@ try:
             statdict[status] += 1
             if count == 10:
                 count = 0
-                printvalues(statdict, size)
+                printStats(statdict, size)
         except Exception:
             continue
 except Exception:
     pass
 finally:
-    printvalues(statdict, size)
+    printStats(statdict, size)
