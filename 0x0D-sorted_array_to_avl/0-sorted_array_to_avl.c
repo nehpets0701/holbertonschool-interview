@@ -54,5 +54,10 @@ avl_t *makeAvl(avl_t *parent, int *array, int first, int last)
 */
 avl_t *sorted_array_to_avl(int *array, size_t size)
 {
+	avl_t *root = NULL;
 
+	root = makeAvl(NULL, array, 0, size - 1);
+	if (root == NULL)
+		return (NULL);
+	return (root);
 }
