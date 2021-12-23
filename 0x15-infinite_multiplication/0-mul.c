@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 	for (; i >= 0; i--)
-		printf("%d", result[i]);
+		printf("%d", buffer[i]);
 	printf("\n");
 	return (0);
 }
