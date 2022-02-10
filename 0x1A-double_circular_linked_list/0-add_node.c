@@ -1,12 +1,12 @@
 #include "list.h"
 
 /**
- * newNodeEnd - Adds node to end of double circular linked list
+ * add_node_end - Adds node to end of double circular linked list
  * @list:input
  * @str:string to input
  * Return: new node or NULL
  */
-List *newNodeEnd(List **list, char *str)
+List *add_node_end(List **list, char *str)
 {
 	List *new;
 
@@ -39,12 +39,12 @@ List *newNodeEnd(List **list, char *str)
 }
 
 /**
- * newNodeStart-adds node at start of double circular list
+ * add_node_begin-adds node at start of double circular list
  * @list:input
  * @str:string to input
  * Return: new node or NULL
  */
-List *newNodeStart(List **list, char *str)
+List *add_node_begin(List **list, char *str)
 {
 	List *new;
 
