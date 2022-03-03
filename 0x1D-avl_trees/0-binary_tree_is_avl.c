@@ -64,7 +64,7 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 {
 	if (tree == NULL)
 		return (0);
-	if (is_tree_bst(tree, -10000, 10000) == 0)
+	if (isBst(tree, -10000, 10000) == 0)
 		return (0);
-	return (is_tree_avl(tree));
+	return (isBalanced(tree));
 }
